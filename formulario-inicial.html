@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YahuTech Digital — Formulário</title>
+<link rel="icon" href="imagens/favicon.ico" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-orbit">
+        <img src="imagens/logo.svg" alt="YahuTech Digital" class="header-logo">
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <h1>Vamos avançar para o próximo nível?</h1>
+      <p>Antes de indicarmos o melhor caminho, queremos entender como você trabalha hoje. Leva poucos minutos e ajuda a gente a te dar uma orientação certeira.</p>
+    </section>
+
+    <form class="survey-card" id="survey-form" novalidate>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q1">1. Nome da empresa</label>
+        </div>
+        <input type="text" id="q1" name="empresa" placeholder="Digite o nome da sua empresa">
+      </div>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q2">2. Nome do responsável</label>
+        </div>
+        <input type="text" id="q2" name="responsavel" placeholder="Seu nome completo">
+      </div>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q3">3. WhatsApp para contato</label>
+        </div>
+        <input type="tel" id="q3" name="whatsapp" placeholder="(00) 00000-0000">
+      </div>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q4">4. Qual é o ramo de atuação da empresa?</label>
+        </div>
+        <input type="text" id="q4" name="ramo" placeholder="Ex: moda, alimentação, serviços...">
+      </div>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>5. Onde sua empresa atende?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="atendimento"> Apenas presencialmente</label>
+          <label class="option"><input type="checkbox" name="atendimento"> Apenas online</label>
+          <label class="option"><input type="checkbox" name="atendimento"> Presencial e online</label>
+          <label class="option"><input type="checkbox" name="atendimento"> Atendo em diferentes cidades/regiões</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>6. Como sua empresa realiza suas vendas atualmente?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="vendas"> Loja física</label>
+          <label class="option"><input type="checkbox" name="vendas"> WhatsApp</label>
+          <label class="option"><input type="checkbox" name="vendas"> Instagram/Facebook</label>
+          <label class="option"><input type="checkbox" name="vendas"> Site próprio</label>
+          <label class="option"><input type="checkbox" name="vendas"> Marketplace</label>
+          <label class="option"><input type="checkbox" name="vendas"> Outros</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>7. Sua empresa possui presença digital atualmente?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="presenca_digital"> Instagram</label>
+          <label class="option"><input type="checkbox" name="presenca_digital"> Facebook</label>
+          <label class="option"><input type="checkbox" name="presenca_digital"> Google Negócios</label>
+          <label class="option"><input type="checkbox" name="presenca_digital"> Site</label>
+          <label class="option"><input type="checkbox" name="presenca_digital"> WhatsApp Business</label>
+          <label class="option"><input type="checkbox" name="presenca_digital"> Ainda não possui presença digital estruturada</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>8. Sua empresa possui um site ou landing page?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="site"> Sim</label>
+          <label class="option"><input type="checkbox" name="site"> Não</label>
+          <label class="option"><input type="checkbox" name="site"> Possui, mas precisa de melhorias</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>9. Como você avalia atualmente a presença da sua empresa na internet?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="avaliacao_presenca"> Muito boa</label>
+          <label class="option"><input type="checkbox" name="avaliacao_presenca"> Boa</label>
+          <label class="option"><input type="checkbox" name="avaliacao_presenca"> Precisa melhorar</label>
+          <label class="option"><input type="checkbox" name="avaliacao_presenca"> Praticamente não tenho presença digital</label>
+          <label class="option"><input type="checkbox" name="avaliacao_presenca"> Não sei avaliar</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>10. Qual é o seu principal objetivo neste momento?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="objetivo"> Atrair mais clientes</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Aumentar as vendas</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Melhorar minha presença digital</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Aumentar minha visibilidade na minha região</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Receber mais contatos pelo WhatsApp</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Criar ou melhorar meu site</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Divulgar produtos ou serviços</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Melhorar minhas campanhas online</label>
+          <label class="option"><input type="checkbox" name="objetivo"> Preciso de orientação sobre o que fazer</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>11. Você já investe em divulgação ou anúncios online?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="investe_anuncio"> Sim</label>
+          <label class="option"><input type="checkbox" name="investe_anuncio"> Não</label>
+          <label class="option"><input type="checkbox" name="investe_anuncio"> Já investi, mas atualmente não</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>12. Se já anuncia, onde costuma anunciar?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="onde_anuncia"> Instagram/Facebook</label>
+          <label class="option"><input type="checkbox" name="onde_anuncia"> Google</label>
+          <label class="option"><input type="checkbox" name="onde_anuncia"> TikTok</label>
+          <label class="option"><input type="checkbox" name="onde_anuncia"> Outros</label>
+          <label class="option"><input type="checkbox" name="onde_anuncia"> Não anuncio</label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q13">13. Qual é a principal dificuldade que sua empresa enfrenta atualmente na área digital?</label>
+        </div>
+        <textarea id="q13" name="dificuldade" rows="3" placeholder="Conte um pouco sobre o que mais te trava hoje"></textarea>
+      </div>
+
+      <div class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <label for="q14">14. O que você gostaria de melhorar primeiro?</label>
+        </div>
+        <textarea id="q14" name="prioridade" rows="3" placeholder="O primeiro passo que você gostaria de dar"></textarea>
+      </div>
+
+      <fieldset class="field">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>15. Como você conheceu a YahuTech Digital?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="como_conheceu"> WhatsApp</label>
+          <label class="option"><input type="checkbox" name="como_conheceu"> Instagram</label>
+          <label class="option"><input type="checkbox" name="como_conheceu"> Facebook</label>
+          <label class="option"><input type="checkbox" name="como_conheceu"> Google</label>
+          <label class="option"><input type="checkbox" name="como_conheceu"> Indicação</label>
+          <label class="option"><input type="checkbox" name="como_conheceu"> Outro</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field field-highlight">
+        <div class="field-head">
+          <span class="field-mark" aria-hidden="true"></span>
+          <legend>16. Você tem interesse em receber uma avaliação da presença digital da sua empresa?</legend>
+        </div>
+        <div class="options">
+          <label class="option"><input type="checkbox" name="avaliacao_interesse"> Sim, quero identificar oportunidades de melhoria</label>
+          <label class="option"><input type="checkbox" name="avaliacao_interesse"> Sim, quero entender como posso atrair mais clientes</label>
+          <label class="option"><input type="checkbox" name="avaliacao_interesse"> Sim, mas ainda não sei exatamente o que preciso</label>
+          <label class="option"><input type="checkbox" name="avaliacao_interesse"> No momento, não</label>
+        </div>
+      </fieldset>
+
+      <div class="submit-row">
+        <button type="submit">Enviar respostas</button>
+        <p class="submit-note">Em breve nossa equipe entra em contato pelo WhatsApp informado.</p>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="imagens/logo.svg" alt="YahuTech Digital" class="footer-logo">
+      <p class="footer-tagline">A parceria que você precisa.</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('survey-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const button = e.target.querySelector('button[type="submit"]');
+    button.textContent = 'Respostas enviadas ✓';
+    button.disabled = true;
+  });
+</script>
+
+</body>
+</html>

@@ -44,7 +44,7 @@ h3 {
 
 h2 {
   font-family: "Sora", sans-serif;
-  color: var(--dourado-marca);
+  color: var(--azul-marca);
   letter-spacing: -0.01em;
 }
 
@@ -69,8 +69,7 @@ header {
   position: sticky;
   top: env(safe-area-inset-top, 0px);
   z-index: 50;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
+  background: #ffffff;
   border-bottom: 1px solid #dfe8f0;
 }
 
@@ -78,21 +77,24 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 82px;
+  height: 150px;
   padding: 0 24px;
   max-width: 1180px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
+  height: 100%;
 }
 
 .logo img {
   height: 200px;
   width: auto;
+  max-height: 100%;
   display: block;
 }
 
@@ -137,11 +139,11 @@ nav {
   }
 
   nav {
-    height: 72px;
+    height: 110px;
   }
 
   .logo img {
-    height: 52px;
+    height: 88px;
   }
 }
 
@@ -419,6 +421,11 @@ nav {
   width: 26px;
   height: 26px;
   stroke: var(--azul-marca);
+}
+
+.icone-whatsapp {
+  fill: #fff;
+  stroke: none;
 }
 
 .servico-item h3 {

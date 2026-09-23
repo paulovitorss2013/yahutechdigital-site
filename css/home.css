@@ -2,11 +2,12 @@
   --azul-marca: #173a68;
   --azul-botao: #146699;
   --azul-claro: #e8f1f8;
+  --dourado-marca: #db9104;
   --fundo: #f6f9fc;
   --texto: #152233;
   --texto-suave: #4b5b6b;
-  --whats: #25d366;
-  --whats-esc: #1da851;
+  --whats: #147e3b;
+  --whats-esc: #0d7c36;
   --branco: #ffffff;
   --radius: 14px;
 
@@ -35,10 +36,15 @@ body {
 }
 
 h1,
-h2,
 h3 {
   font-family: "Sora", sans-serif;
   color: var(--azul-marca);
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  color: var(--dourado-marca);
   letter-spacing: -0.01em;
 }
 
@@ -95,7 +101,7 @@ nav {
   gap: 28px;
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--texto-suave);
+  color: var(--dourado-marca);
 }
 
 .nav-links a {
@@ -162,9 +168,9 @@ nav {
 }
 
 .eyebrow-free {
-  color: var(--whats-esc);
+  color: var(--azul-marca);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   margin-bottom: 14px;
 }
 
@@ -479,7 +485,7 @@ nav {
   font-family: "Sora", sans-serif;
   font-weight: 800;
   font-size: 1.6rem;
-  color: var(--whats);
+  color: var(--dourado-marca);
   margin-bottom: 10px;
 }
 

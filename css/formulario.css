@@ -57,6 +57,28 @@ a {
   border-bottom: 1px solid var(--border);
 }
 
+.btn-voltar {
+  display: flex;
+  width: fit-content;
+  margin: 20px auto 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--azul-marca);
+  border: 1.5px solid #c7d6e4;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-voltar:hover {
+  background: var(--azul-claro);
+  border-color: var(--azul-botao);
+}
+
 .header-inner {
   max-width: 760px;
   height: 100%;

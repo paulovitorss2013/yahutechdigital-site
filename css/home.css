@@ -10,6 +10,7 @@
   --whats-esc: #0d7c36;
   --branco: #ffffff;
   --radius: 14px;
+  --header-height: 150px; /* altura do header, usada para compensar o scroll */
 
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
@@ -77,7 +78,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 150px;
+  height: var(--header-height);
   padding: 0 24px;
   max-width: 1180px;
   margin: 0 auto;
@@ -138,12 +139,16 @@ nav {
     display: none;
   }
 
+  :root {
+    --header-height: 130px; /* header um pouco menor no mobile, mas com espaço para a logo maior */
+  }
+
   nav {
-    height: 110px;
+    height: var(--header-height);
   }
 
   .logo img {
-    height: 88px;
+    height: 108px; /* logo aumentada para não ficar pequena na responsiva */
   }
 }
 
@@ -375,6 +380,7 @@ nav {
 
 .secao {
   padding: 80px 0;
+  scroll-margin-top: var(--header-height); /* compensa o header sticky ao rolar até a âncora */
 }
 
 .titulo-secao {
@@ -514,6 +520,7 @@ nav {
 
 .cta-final {
   padding: 80px 0;
+  scroll-margin-top: var(--header-height); /* compensa o header sticky ao rolar até a âncora */
 }
 
 .cta-caixa {

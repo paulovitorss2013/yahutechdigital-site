@@ -32,5 +32,5 @@
   // Troca automática de slide a cada 4.2 segundos
   setInterval(function () {
     ir((atual + 1) % slides.length);
-  }, 4200);
+  }, 5500);
 })();

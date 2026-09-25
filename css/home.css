@@ -351,11 +351,13 @@ nav {
   justify-content: center;
   gap: 8px;
   margin-top: 16px;
+  position: relative;
+  z-index: 5;
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: #c7d6e4;
   cursor: pointer;
